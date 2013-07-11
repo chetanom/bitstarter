@@ -103,7 +103,8 @@ console.log(outJson);
 checkJson = checkHtmlFile(program.file, program.checks);
 var outJson = JSON.stringify(checkJson, null, 4);
 console.log(outJson);
-
-} else {
+}
+}
+ else {
     exports.checkHtmlFile = checkHtmlFile;
 }
